@@ -1,18 +1,17 @@
-package tarea.online2;
-
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package MPD_Online02;
 
 /**
- * Mostrar los primeros 100 numeros negativos
+ * Mostrar los primeros 50 numeros impares
  * @author Daniel Millan
  * @version 1.0
+ * 
  */
-public class E3 {
+public class E8 {
 
     /**
      * @param args the command line arguments
@@ -20,13 +19,9 @@ public class E3 {
     public static void main(String[] args) {
         // TODO code application logic here
       
-         for (int i=-1; i<=100; i--){
+        
+         for (int i=1; i<=100; i+=2){
         System.out.println(i);
-        if (i==-100)
-            break;
-        
-                    
-        
     }
     
 }

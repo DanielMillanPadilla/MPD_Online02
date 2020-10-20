@@ -1,4 +1,4 @@
-package tarea.online2;
+package MPD_Online02;
 
 import java.util.Scanner;
 
